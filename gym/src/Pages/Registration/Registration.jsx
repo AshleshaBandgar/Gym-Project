@@ -34,7 +34,7 @@ const Register = () => {
     
 
     const error = Validation(formValues);
-    if (Object.keys(error).length == 0) {
+    if (Object.keys(error).length === 0) {
       const result = userFind(formValues.email);
 
       if (result) {
@@ -86,8 +86,6 @@ const Register = () => {
       errors.password = "Password should be less than 16 character";
     } else if (
       values.password.includes(123) ||
-      values.password.includes(1234) ||
-      values.password.includes(123456) ||
       values.password.includes(12345678)
     ) {
       errors.password = "Password should be Unique";
@@ -107,7 +105,7 @@ const Register = () => {
 
     let result = false;
     for (let i = 0; i < data.length; i++) {
-      if (data[i].email == email) {
+      if (data[i].email === email) {
         result = true;
         break;
       }

@@ -4,7 +4,7 @@
   margin: 0;
   align-items: center;
   background-color: rgb(9, 9, 9);
-  color: white;
+  color: goldenrod;
   height: 5rem;
   font-size: 1.5rem;
   font-weight: 800;
@@ -29,7 +29,7 @@
 }
 
 .navlist > li > a {
-  color: white;
+  color: goldenrod;
   text-decoration: none;
 }
 
@@ -41,9 +41,9 @@ content: ;
   margin-top: 0.4rem;
   height: 2.5rem;
   width: 6.3rem;
-  background-color: red;
+  background-color: rgb(43, 3, 117);
   padding: 0.4rem;
-  color: white;
+  color: goldenrod;
   border-radius: 10px;
   border: none;
   margin-right: 3rem;
